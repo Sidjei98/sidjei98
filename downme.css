@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+header#cabecalho-artigom h6{
+    font-family: 'fonteid';
+    font-size: 39pt;
+    position: relative;
+    top: 90px;
+    left: 331px;
+    width: 1040px;
+ }
+ header#cabecalho-artigom h5{
+	font-family: 'fontinf';
+    font-size: 29pt;
+    position: relative;
+    top: 152px;
+    left: -51px;
+    margin: 15px;
+}

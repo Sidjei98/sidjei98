@@ -1,0 +1,101 @@
+@charset 'UTF-8';
+@font-face{
+	
+}
+/*formatação do corpo*/
+section#corpomusica{
+	display: block;
+	height: 2400px;
+}
+header#cabecalhomusica h1{
+	font-family: 'fontedj', sans-serif;
+	font-size: 59pt;
+	color: #000000;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	position: relative;
+	top:100px;
+	left: 40px;
+	border-bottom: 1px solid black;
+	width:1040px; 
+}
+header#cabecalhomusica img#a1{
+	position: relative;
+    left: 215px;
+    top: 270px;
+}
+header#cabecalhomusica img#a2{
+    position: relative;
+    left: -287px;
+    top: 459px;
+}
+header#cabecalhomusica img#a3{
+	position: relative;
+    left: 219px;
+    top: 561px;
+}
+
+header#cabecalhomusica img#a4{
+    position: relative;
+    left: -291px;
+    top: 773px;
+}
+header#cabecalhomusica img#a5{
+    position: relative;
+    left: 221px;
+    top: 862px;
+}
+header#cabecalhomusica img#a6{
+	position: relative;
+    left: -283px;
+    top: 1063px;
+}
+header#cabecalhomusica img#a7{
+    position: relative;
+    left: 217px;
+    top: 1166px;
+}
+header#cabecalhomusica img#a8{
+    position: relative;
+    left: -291px;
+    top: 1366px;
+}
+header#cabecalhomusica img#a9{
+    position: relative;
+    left: -38px;
+    top: 1464px;
+}
+nav#menum{
+    display:block; 
+}
+nav#menum ul { 
+    width: 339px;
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -2222px;
+    left: 300px;
+    
+}
+
+nav#menum li{
+    font-family: arial;
+    font-size: 25pt;
+    display: inline-block;
+    background-color: padding: 10px;
+    margin: 9px;
+    position: relative;
+    top: -42px;
+    left: 505px;
+}
+
+
+nav#menum a{
+    color: black;
+    text-decoration: none;
+    transition: background-color 1s;
+}
+nav#menum a:hover{
+    color: #ed1717;
+    text-decoration:none;
+}

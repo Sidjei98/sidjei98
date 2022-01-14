@@ -1,0 +1,553 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: 'fontelogo';
+	src: url("../font/Roboto-ThinItalic.ttf");
+}
+
+@font-face{
+    font-family: 'fontedj';
+    src: url("../font/ClementePDaa-Hairline.ttf");
+}
+@font-face{
+    font-family: 'fontemenu';
+    src:url("../font/ClementePDac-ExtraLight.ttf");
+}
+@font-face{
+    font-family: 'fonteid';
+    src:url("../font/Neou-Thin.otf");
+}
+@font-face{
+    font-family: 'fontinf';
+    src: url("../font/Roboto-Thin.ttf");
+}
+
+
+/*Personalizando Bootstrap*/
+
+/*Bara de navegação Navbar*/
+.h1{
+	font-family: 'fontelogo';
+}
+.navbar-dark .navbar-brand {
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    left: 6%;
+    height: 3px;
+    top: -24px;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0, 188, 212);
+}
+
+
+
+.bg-warning {
+    background-color: #191919!important;
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #00bcd4;
+}
+
+
+
+.modal-header{
+    background-color: #191919;;
+}
+
+
+
+.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
+
+
+
+h5, .h5 {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+
+
+.btn-danger {
+    color: #fff;
+    background-color: #191919;
+    border-color: #191919;
+}
+
+.btn-danger:hover{
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+.btn-primary{
+	color: #fff;
+	background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+
+
+
+
+h4, .h4 {
+    font-size: 1.2rem;
+    font-family: 'fontedj';
+}
+
+
+#logo {
+position: relative;
+    left: -44%;
+    height: 67px;
+    top: -1px;
+}
+
+
+
+ #h {
+    font-size: 14pt;
+    position: relative;
+    top: 2%;
+    left: 0%;
+}
+
+
+
+.display-4 {
+
+font-size: 1.5rem;
+font-weight: bold;
+line-height: 1.2;
+position: relative;
+top: 11px;
+
+}
+
+#atua{
+
+font-size: 2.5rem;
+font-weight: 300;
+line-height: 1.2;
+}
+
+#bt.nav-link{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.btn-warning {
+    color: #fff;
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+
+}
+
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #00bcd4;
+    border-color:#00bcd4;
+
+}
+
+
+#m{
+    font-family: fontelogo;
+}
+
+
+.card-img {
+    width: 46%;
+    border-radius: calc(0.25rem - 1px);
+}
+.card-img:hover{
+box-shadow: 2px 1px 30px rgba(0, 0, 0, .4);
+
+}
+
+#lin{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.mt-5, .my-5 {
+    margin-top: 0rem !important;
+}
+
+
+
+
+
+
+
+
+<!--Tabela-->
+
+table#tabelaspec{
+    border: 1px solid #00bcd4;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+
+table#tabelaspec td{
+ 
+    border: 1px solid #00bcd4;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+
+}
+
+
+table#tabelaspec caption{
+    color: #00bcd4;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    top: -1px;
+    left: -5%;
+}
+
+
+#redes {
+    font-size: 1.4rem;
+    background-color: #00bcd4;
+    color: #fff;
+    text-align: center;
+    font-family: 'fontelogo'
+}
+
+
+h3, .h3 {
+    font-size: 1.75rem;
+    background:#00bcd4;
+    font-family: fontelogo;
+    color: #fff;
+}
+#f{
+
+      font-size: 14pt;
+    position: relative;
+    top: 2%;
+    left: 0%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    border: hidden;
+}
+
+
+/*Redes sociais*/
+
+#fb{
+    position: relative;
+    top: -36px;
+    color: #fff;
+    left: -13%;
+    font-family: fontelogo;
+    font-size: 22px;
+}
+
+#fb:hover{
+    color: #000;
+}
+
+a#facelink:hover{
+    text-decoration: none;
+
+}
+
+
+#med{
+    margin-bottom: 0.5rem;
+    font-family: fontelogo;
+    font-weight: bold;
+    line-height: 1.2;
+    color: inherit;
+    top: -13px;
+    position: relative;
+    left: -7%;
+}
+
+
+#instalogo{
+position: relative;
+    width: ;
+    top: -57px;
+}
+#in{
+    position: relative;
+    top: -93px;
+    color: #fff;
+    left: -13%;
+    font-family: fontedj;
+    font-size: 22px;
+}
+#in:hover{
+
+ color: #000;
+
+}
+
+#twlogo{
+    position: relative;
+    top: -114px;
+}
+
+#tw{
+
+    position: relative;
+    top: -150px;
+     color: #fff;
+    left: -19%;
+    font-family: fontedj;
+    font-size: 22px;
+}
+
+#tw:hover{
+
+ color: #000;
+
+}
+
+
+#gologo{
+    position: relative;
+    top: -171px;
+}
+#gg{
+       position: relative;
+    top: -206px;
+    color: #fff;
+    left: -15%;
+    font-family: fontedj;
+    font-size: 22px;
+}
+
+#gg:hover{
+
+ color: #000;
+
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+    position: relative;
+    left: -22%;
+}
+
+
+
+
+input:hover, textarea:hover{
+    background-color: #dddddd;
+}
+/*Botões ver mais*/
+
+.btn-info {
+    color: #fff;
+    background-color: #191919;
+    border-color: #191919;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #191919;
+}
+
+
+
+#dr{
+ 
+ position: relative;
+    left: 41%;
+    top: 40px;
+
+
+}
+#dc{
+    position: relative;
+    left: 41%;
+    top: 50px;
+}
+
+#ds{
+    position: relative;
+    left: 41%;
+    top: 19px;
+}
+
+#drs{
+    position: relative;
+    left: -21%;
+    top: 5px;
+}
+
+
+
+#loc{
+      font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    position: relative;
+    left: -13%;
+
+}
+
+#pag{
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1.75rem;
+    background: none;
+    font-family: fontedj;
+    color: #00bcd4;
+    
+}
+
+#sobre{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: #fff;
+}
+
+#muu{
+        margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 24px;
+
+}
+
+#Mix{
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 32px;
+
+}
+
+
+/*rodapé*/
+
+#m2{
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1.75rem;
+    background: none;
+    font-family: fontedj;
+    color: #fff;
+}
+
+#rodape{
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    color: #fff;
+    position: relative;
+    top: 45px;
+    left: -1px;
+}
+
+#foo{
+        color: #00bcd4;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+
+}
+
+#foo:hover{
+    color:#ff1100 ;
+}
+
+#j2{
+        margin-bottom: 0 !important;
+    background-color: rgba(0,0,0,0.9);
+}
+#ja{
+    border-color: #00bcd4;
+}
+
+#facefooter{
+
+    border-style: none;
+    position: relative;
+    top: 10px;
+    left: 19%;
+    color: #605c5c
+}
+
+#twitterfooter{
+    
+    border-style: none;
+    position: relative;
+    top: 6px;
+    left: 18%;
+}
+
+#instafooter{
+    position: relative;
+    top: 5px;
+    left: 20%;
+}
+
+#gofooter{
+    position: relative;
+    top: 4px;
+    left: 21%;
+}
+
+#publi{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    position: relative;
+    top: -37%;
+    left: -13%;
+
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+#hui{
+    width: 46%;
+    border-radius: calc(0.25rem - 1px);
+    position: relative;
+    left: 27%;
+    top: 16px;
+}
+
+#down{
+    vertical-align: middle;
+    border-style: none;
+    position: relative;
+    top: 33px;
+    left: 16%;
+    width: 42%;
+
+}
+
+#des{
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.2;
+    position: relative;
+    top: 22px;
+    left: 4px;
+}
+#desc{
+      font-family: 'fontelogo';
+    font-size: 14pt;
+    font-weight: 600;
+    line-height: 1.2;
+    position: relative;
+    top: 11px;
+    left: 0px;
+}
+
+
+mt-5, .my-5 {
+    margin-top: 0rem !important;
+    position: relative;
+    top: 116px;
+}
+
+#j2{
+margin-bottom: 0 !important;
+    background-color: rgba(0,0,0,0.9);
+    position: relative;
+    top: 120px;
+}

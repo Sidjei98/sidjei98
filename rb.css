@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+section#corporb{
+	height: 2000px;
+}
+header#cabecalhorb h1{
+	font-family: 'fontedj', sans-serif;
+	font-size: 59pt;
+	color: #000000;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	position: relative;
+	top:100px;
+	left: 40px;
+	border-bottom: 1px solid black;
+	width:1040px; 
+}
+nav#menu ul{
+   	background-image: url("../imagens/BACKRB.png");
+    text-transform: uppercase;
+    position: relative;
+    top: -20px;
+    left: 29px;
+    width: 1084px;
+    height: 1513px;
+    padding: 10px;
+    margin: 6px;
+}
+nav#menu li{
+   font-family: 'fonteid';
+    font-size: 50pt;
+    position: relative;
+    top:-8px;
+    left: -10px;
+    background-color: none;
+    padding: 68.5px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+	background-color: #e08935;
+	width: 966px;
+	opacity: 0.5;
+
+
+}
+
+nav#menu a{
+	color: white;
+	text-decoration: none
+	background-color: none;
+}
+nav#menu a:hover{
+	color: #ffffff;
+	text-decoration: none;
+	background-color: none;
+	
+}
